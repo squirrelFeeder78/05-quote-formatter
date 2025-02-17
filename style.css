@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  background-color: #3F51B5;
+  color: #2d3748;
+  background-image: linear-gradient(135deg, #3F51B5 0%, #00BCD4 100%);
+}
+
+.container {
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #2d3748;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.input-group {
+  margin-bottom: 24px;
+}
+
+label {
+  color: #4a5568;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 0.025em;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+input:hover {
+  border-color: #00b5d8;
+  background-color: #fbfcfd;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00b5d8;
+  box-shadow: 0 0 0 3px rgba(0, 181, 216, 0.15);
+  background-color: white;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  background-color: #00b5d8;
+  background-image: linear-gradient(135deg, #00b5d8 0%, #0098b7 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 24px;
+  box-shadow: 0 4px 12px rgba(0, 181, 216, 0.3);
+}
+
+button:hover {
+  background-image: linear-gradient(135deg, #00a3c4 0%, #0088a3 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 181, 216, 0.4);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.result-box {
+  margin-top: 32px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  min-height: 50px;
+  background-color: #f8fafc;
+  line-height: 1.5;
+}

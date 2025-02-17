@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WhimsyText</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>💡WhimsyText</h1>
+    <form id="form">
+      <div class="input-group">
+        <label for="noun">Enter a noun:</label>
+        <input type="text" id="noun" required>
+      </div>
+      <div class="input-group">
+        <label for="verb">Enter a verb:</label>
+        <input type="text" id="verb" required>
+      </div>
+      <div class="input-group">
+        <label for="adjective">Enter an adjective:</label>
+        <input type="text" id="adjective" required>
+      </div>
+      <button type="submit">GENERATE STORY</button>
+    </form>
+    <div id="result" class="result-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
