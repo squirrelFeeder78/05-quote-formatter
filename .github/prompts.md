@@ -7,7 +7,7 @@ When the form is submitted, get the user's inputs and display this sentence usin
 Rewrite the string formatting to be more streamlined.
 
 ## Prompt 3
-Update the sentence to: "{Verb}ing {adjective} {noun} is the real test of character. #LifeRules"
+Update the generated sentence to: "{Verb}ing {adjective} {noun} is the real test of character. #LifeRules"
 
 ## Review Prompt
 I'm building projects with JavaScript basics. Please explain:
